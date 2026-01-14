@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background-color: #aab0ba;
+    font-family: Arial, sans-serif;
+}
+
+.nav_Bar {
+    width: 100%;
+    background-color: #a9b2fd;
+}
+
+.nav_Bar ul {
+    list-style: none;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.nav_Bar li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav_Bar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav_Bar a:hover {
+    color: #0624eb;
+}
+
+.nav_Bar a:active {
+    color: #0312db;
+}
