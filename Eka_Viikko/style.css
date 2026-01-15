@@ -1,36 +1,97 @@
 body {
     margin: 0;
-    background-color: #aab0ba;
-    font-family: Arial, sans-serif;
+    background-image: url("img/Bg.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.nav_Bar {
+.nav_bar {
     width: 100%;
-    background-color: #a9b2fd;
+    background-color: #ffffff;
+    position: relative;
 }
 
-.nav_Bar ul {
+.nav_bar ul {
     list-style: none;
     margin: auto;
     text-align: center;
     padding: 20px 0;
 }
 
-.nav_Bar li {
+.nav_bar li {
     display: inline-block;
     margin: 0 15px;
 }
 
-.nav_Bar a {
+.nav_bar a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
 }
 
-.nav_Bar a:hover {
+.nav_bar a:hover {
     color: #0624eb;
 }
 
-.nav_Bar a:active {
+.nav_bar a:active {
     color: #0312db;
+}
+
+.logo {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.site_name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.main {
+   min-height: 100vh;
+   position: relative;
+}
+
+.main_text {
+    color: white;
+    width: 100%;
+    text-align: left;
+    margin-top: 300px;
+    padding: 0 40px;
+}
+
+.main_text h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.main_text p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.contact {
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.contacts {
+    float: left;
+    width: 30%;
+    margin-left: 3.333%;
+    text-align: center;
 }
